@@ -16,17 +16,19 @@ body {
 .banner {
   background-color: #2b3851;
   position: relative;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .robot {
   display: flex;
   justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: 320px;
 }
 
 .robot-body {
-  position: relative;
   width: 320px;
 }
 
@@ -43,9 +45,9 @@ body {
 }
 
 .robot-head-left {
-  left: 43px;
+  left: 35px;
 }
 
 .robot-head-right {
-  left: 153px;
+  left: 160px;
 }
